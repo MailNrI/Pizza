@@ -14,15 +14,15 @@
 ![dep](img/code2.PNG "get")
 
 ##### Page 1
-![1](img/slide1.jpg "1")
+![1](img/slide1.jpeg "1")
 
 ##### Page 2
-![2](img/slide2.jpg "3")
+![2](img/slide2.jpeg "3")
 ##### Page 3
-![3](img/slide3.jpg "3")
+![3](img/slide3.jpeg "3")
 
 ##### Page 4
-![4](img/slide4.jpg "4")
+![4](img/slide4.jpeg "4")
 
 ##### Page 5
-![5](img/slide5.jpg "5")
+![5](img/slide5.jpeg "5")
