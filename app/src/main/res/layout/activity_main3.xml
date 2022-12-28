@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <include layout="@layout/toolbar" />
+
+    <ImageView
+        android:id="@+id/pepperoni"
+        android:layout_width="110dp"
+        android:layout_height="114dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:srcCompat="@drawable/circle_cropped__27__1" />
+
+    <ImageView
+        android:id="@+id/spaghetti"
+        android:layout_width="110dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pepperoni"
+        app:srcCompat="@drawable/circle_cropped__26__1" />
+
+    <ImageView
+        android:id="@+id/burger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spaghetti"
+        app:srcCompat="@drawable/circle_cropped__25__1" />
+
+    <ImageView
+        android:id="@+id/steak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/burger"
+        app:srcCompat="@drawable/circle_cropped__25__2" />
+
+    <TextView
+        android:id="@+id/peperoni_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/peperoni_pizza"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/pepperoni"
+        app:layout_constraintTop_toTopOf="@+id/pepperoni" />
+
+    <TextView
+        android:id="@+id/spaghetti_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/spaghetti"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/spaghetti"
+        app:layout_constraintTop_toTopOf="@+id/spaghetti" />
+
+    <TextView
+        android:id="@+id/burger_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/burger"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/burger"
+        app:layout_constraintTop_toTopOf="@+id/burger" />
+
+    <TextView
+        android:id="@+id/steak_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/Steak"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/steak"
+        app:layout_constraintTop_toTopOf="@+id/steak" />
+
+    <TextView
+        android:id="@+id/peperoni_description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/peperoni_pizza_info"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/pepperoni"
+        app:layout_constraintTop_toTopOf="@+id/peperoni_title" />
+
+    <TextView
+        android:id="@+id/spaghetti_description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/spaghetti_info"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/spaghetti"
+        app:layout_constraintTop_toTopOf="@+id/spaghetti_title" />
+
+    <TextView
+        android:id="@+id/burger_description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/burger_info"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/burger"
+        app:layout_constraintTop_toTopOf="@+id/burger_title" />
+
+    <TextView
+        android:id="@+id/steak_description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/steak_info"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/steak"
+        app:layout_constraintTop_toTopOf="@+id/steak_title" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:backgroundTint="#E91E63" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

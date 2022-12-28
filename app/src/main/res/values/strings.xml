@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Pizza Restaurant</string>
+    <string-array name="city">
+        <item>Cipadung</item>
+        <item>Cibiru</item>
+        <item>Cileunyi</item>
+        <item>Rancaekek</item>
+        <item>Ujung Berung</item>
+    </string-array>
+    <string name="store_label">Store</string>
+    <string name="name_label">Your name</string>
+    <string name="button_label">Submit</string>
+    <string name="location_label">Location</string>
+    <string name="find_on_maps">Find on maps</string>
+    <string name="see_menu">See menus</string>
+    <string name="title_activity_main3">MainActivity3</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="peperoni_pizza">Peperoni Pizza</string>
+    <string name="spaghetti">Spaghetti</string>
+    <string name="burger">Burger</string>
+    <string name="Steak">Steak</string>
+    <string name="peperoni_pizza_info">Cocok bagi anda yang ingin merasakan pizza original dengan taburan keju dan daging asap yang lezat </string>
+    <string name="spaghetti_info">Cocok bagi anda yang ingin merasakan spaghetti oigin dengan bumbu yang oriental</string>
+    <string name="burger_info">Cocok bagi anda yang ingin merasakaan kelembutan burger berlapisan keju, sayuran dan daging yang tebal</string>
+    <string name="steak_info">Cocok bagi anda yang ingin merasakan lezatnya daging steak dipadukan dengan kentang yang lezat</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="pizza_desc">Pepperoni pizza adalah pizza yang memiliki topping daging pepperoni sapi asli. Di Italia, pepperoni disebut salame piccante (salami panas). Biasa menjadi bahan baku pizza di Amerika Serikat, yang sering mewakili 30% pelengkap. Pizza ini cocok untuk santap siang ataupun malam anda</string>
+    <string name="order_label">Order Now</string>
+    <string name="back_label">Back</string>
+</resources>
